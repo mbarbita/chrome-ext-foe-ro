@@ -1,5 +1,5 @@
 {
-  "name": "FOE RO",
+  "name": "FOE",
   "description": "FOE RO",
   "version": "1.0",
   "manifest_version": 3,
@@ -7,7 +7,7 @@
     "service_worker": "background.js"
   },
   "options_page": "options.html",
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["storage", "activeTab"],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
